@@ -6,9 +6,9 @@
 Do you love cats and want to learn something new and fun about cats with ease?
 Then this App is for you.
 
-I built this simple app using ReactJs and an Api from ''
+I built this simple app using ReactJs and an API from 'https://catfact.ninja/fact'
 
-Using some properties like Axious and Use Effect, we have a fun App.
+Using some properties like Axios and Use Effect, we have a fun App.
 
 ## How It Works
 
@@ -20,6 +20,7 @@ With this information you may leave happily ever with your neighbors cat
 I do not plan to release any information that endangers a Cats precious life. If the information sounds dangerous, don't think the universe is telling you something about your neighbors cat. Just ignore and be patient until you buy your own house.
 
 ## Under The Hood.
+The useEffect hook helps avoid an infinite loop of generated catfacts and initializing the useState to "" (an empty string), instead of 'null' avoids unexpected behaiviours.
 My thinking is, there is some database that contains uncountable facts about cats
 
 ## The Thrill
